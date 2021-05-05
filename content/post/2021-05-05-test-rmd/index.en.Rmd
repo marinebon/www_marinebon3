@@ -1,0 +1,34 @@
+---
+title: Test Rmd
+author: Ben Best
+date: '2021-05-05'
+slug: test-rmd
+categories:
+  - Demo
+tags:
+  - Deep Learning
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2021-05-05T09:34:57-07:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+```{r echo=FALSE}
+library(ggplot2)
+g <- ggplot(Orange, aes(x = age, 
+                   y = circumference, 
+                   color = Tree)) +
+  geom_point() +
+  geom_line() +
+  guides(color = FALSE) +
+  theme_bw()
+g
+
+plotly::ggplotly(g)
+```

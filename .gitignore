@@ -1,0 +1,17 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+# silly Mac Finder
+.DS_Store
+**/DS_Store
+# silly Win Explorer
+Thumbs.db
+**/Thumbs.db
+# handled by Netlify
+/public/
+/resources/
+# temporary files created by rmarkdown::render()
+*.utf8.md
+*.knit.md
+
