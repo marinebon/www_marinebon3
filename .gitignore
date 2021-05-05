@@ -14,4 +14,4 @@ Thumbs.db
 # temporary files created by rmarkdown::render()
 *.utf8.md
 *.knit.md
-
+README.html
