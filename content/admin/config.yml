@@ -5,7 +5,7 @@ backend:
 media_folder: 'assets/media'
 public_folder: '/media'
 collections:
-  - name: home
+  - name: home-bb
     label: "Homepage-BB"
     folder: 'content/home'
     path: '{{slug}}'
@@ -209,8 +209,8 @@ collections:
           - {label: Description for screen readers, name: alt_text, widget: string, required: false}
           - {label: "Where's the focal point in the image? Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.", name: focal_point, widget: string, required: false, default: "Smart"}
           - {label: 'Thumbnail Only?', name: preview_only, widget: boolean, default: false, required: false}
-  - name: projects
-    label: Projects
+  - name: projs
+    label: Projecs
     label_singular: Project
     folder: 'content/project'
     path: '{{slug}}/index'
