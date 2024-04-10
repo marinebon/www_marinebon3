@@ -1,3 +1,8 @@
+## :warning: deprecated.
+
+### Most of this site has been abandoned in favor of a wordpress site.
+### Information about the wordpress site is in [marinebon/marinebon_wordpress_website](https://github.com/marinebon/marinebon_wordpress_website).
+
 # www_marinebon3
 
 * [Up & running with blogdown in 2021 | Alison Hill](https://alison.rbind.io/post/new-year-new-blogdown/)
